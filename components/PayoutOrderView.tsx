@@ -1,5 +1,5 @@
 import React from 'react';
-import { Group, User, Payout } from '../types';
+import { Group, User, Payout } from '../types.ts';
 
 interface PayoutOrderViewProps {
   group: Group;

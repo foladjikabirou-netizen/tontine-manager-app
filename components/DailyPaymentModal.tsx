@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Group, User, Contribution } from '../types';
+import { Group, User, Contribution } from '../types.ts';
 
 interface DailyPaymentModalProps {
   isOpen: boolean;

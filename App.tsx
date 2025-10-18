@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { User, Group, Contribution, Payout, Adjustment } from './types';
-import { initialUsers, initialGroups, initialContributions, initialPayouts, initialAdjustments } from './services/mockData';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
+import { User, Group, Contribution, Payout, Adjustment } from './types.ts';
+import { initialUsers, initialGroups, initialContributions, initialPayouts, initialAdjustments } from './services/mockData.ts';
+import Login from './components/Login.tsx';
+import Dashboard from './components/Dashboard.tsx';
 
 const App: React.FC = () => {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);

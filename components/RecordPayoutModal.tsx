@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Group, User, Contribution, Payout, Adjustment } from '../types';
+import { Group, User, Contribution, Payout, Adjustment } from '../types.ts';
 
 interface RecordPayoutModalProps {
   isOpen: boolean;

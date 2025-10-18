@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Group, User } from '../types';
+import { Group, User } from '../types.ts';
 
 interface AddEditGroupModalProps {
   isOpen: boolean;

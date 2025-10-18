@@ -1,5 +1,5 @@
 import React from 'react';
-import { Group, User, Contribution, Payout, Adjustment } from '../types';
+import { Group, User, Contribution, Payout, Adjustment } from '../types.ts';
 
 const StatCard: React.FC<{ title: string; value: string | number; icon: React.ReactNode; color: string }> = ({ title, value, icon, color }) => (
     <div className="bg-white p-6 rounded-lg shadow flex items-center">

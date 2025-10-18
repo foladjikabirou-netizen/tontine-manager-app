@@ -1,15 +1,15 @@
 import React, { useState, useMemo } from 'react';
-import { User, Group, Contribution, Payout, Adjustment } from '../types';
-import GroupDashboardView from './GroupDashboardView';
-import MembersView from './MembersView';
-import ContributionsView from './ContributionsView';
-import PayoutOrderView from './PayoutOrderView';
-import AddPaymentModal from './AddPaymentModal';
-import AddMemberModal from './AddMemberModal';
-import RecordPayoutModal from './RecordPayoutModal';
-import ModifyPotModal from './ModifyPotModal';
-import AddEditGroupModal from './AddEditGroupModal';
-import DailyPaymentModal from './DailyPaymentModal'; // Import new modal
+import { User, Group, Contribution, Payout, Adjustment } from '../types.ts';
+import GroupDashboardView from './GroupDashboardView.tsx';
+import MembersView from './MembersView.tsx';
+import ContributionsView from './ContributionsView.tsx';
+import PayoutOrderView from './PayoutOrderView.tsx';
+import AddPaymentModal from './AddPaymentModal.tsx';
+import AddMemberModal from './AddMemberModal.tsx';
+import RecordPayoutModal from './RecordPayoutModal.tsx';
+import ModifyPotModal from './ModifyPotModal.tsx';
+import AddEditGroupModal from './AddEditGroupModal.tsx';
+import DailyPaymentModal from './DailyPaymentModal.tsx'; // Import new modal
 
 interface DashboardProps {
   currentUser: User;

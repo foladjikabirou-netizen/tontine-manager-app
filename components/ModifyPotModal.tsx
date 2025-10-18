@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Group, Contribution, Adjustment } from '../types';
+import { Group, Contribution, Adjustment } from '../types.ts';
 
 interface ModifyPotModalProps {
   isOpen: boolean;

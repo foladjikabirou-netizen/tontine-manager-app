@@ -1,5 +1,5 @@
 import React from 'react';
-import { Group, User, Contribution } from '../types';
+import { Group, User, Contribution } from '../types.ts';
 
 interface ContributionsViewProps {
   group: Group;

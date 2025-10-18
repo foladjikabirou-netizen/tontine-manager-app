@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Group, User, Contribution } from '../types';
+import { Group, User, Contribution } from '../types.ts';
 
 interface AddPaymentModalProps {
   isOpen: boolean;

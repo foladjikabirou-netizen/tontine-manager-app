@@ -1,4 +1,4 @@
-import { User, Group, Contribution, Payout, Adjustment } from '../types';
+import { User, Group, Contribution, Payout, Adjustment } from '../types.ts';
 
 export const initialUsers: User[] = [
   { id: 'u1', name: 'Admin Tontine', phone: '123-456-7890', email: 'admin@tontine.app', role: 'admin' },
